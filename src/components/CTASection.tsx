@@ -1,10 +1,8 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Calendar, MessageCircle, MapPin, Clock } from "lucide-react";
-
 const CTASection = () => {
-  return (
-    <section id="contacto" className="py-24 bg-gradient-subtle relative overflow-hidden">
+  return <section id="contacto" className="py-24 bg-gradient-subtle relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute inset-0 opacity-30">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full bg-gradient-to-r from-primary/10 via-accent/10 to-medical-green/10 blur-3xl" />
@@ -13,12 +11,17 @@ const CTASection = () => {
       <div className="container relative">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Content */}
-          <motion.div
-            initial={{ opacity: 0, x: -30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-          >
+          <motion.div initial={{
+          opacity: 0,
+          x: -30
+        }} whileInView={{
+          opacity: 1,
+          x: 0
+        }} viewport={{
+          once: true
+        }} transition={{
+          duration: 0.6
+        }}>
             <span className="text-accent font-medium text-sm tracking-wide uppercase">
               Agenda tu Cita
             </span>
@@ -31,18 +34,11 @@ const CTASection = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
-              <Button
-                size="lg"
-                className="bg-accent hover:bg-accent/90 text-accent-foreground font-medium px-8 py-6 text-base shadow-elevated"
-              >
+              <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground font-medium px-8 py-6 text-base shadow-elevated">
                 <Calendar className="mr-2 h-5 w-5" />
                 Agendar Cita
               </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-primary text-primary hover:bg-primary hover:text-primary-foreground font-medium px-8 py-6 text-base"
-              >
+              <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground font-medium px-8 py-6 text-base">
                 <MessageCircle className="mr-2 h-5 w-5" />
                 WhatsApp
               </Button>
@@ -52,23 +48,30 @@ const CTASection = () => {
             <div className="space-y-4">
               <div className="flex items-center gap-3 text-muted-foreground">
                 <MapPin className="h-5 w-5 text-accent" />
-                <span>Consultorio ubicado en [Ciudad, Dirección]</span>
+                <span>Consultorio ubicado en Torre Médica Pacífico, Piso 10, Consultorio 1007. 
+Calle de la Nao 19, 39670, Acapulco de Juarez, Gro., México. </span>
               </div>
               <div className="flex items-center gap-3 text-muted-foreground">
                 <Clock className="h-5 w-5 text-accent" />
-                <span>Lunes a Viernes: 9:00 - 18:00 hrs</span>
+                <span>Lunes a Viernes: 9:00 - 18:00 hrs
+¿Necesitas otro horario? Atendemos solicitudes especiales con cita previa. Contáctanos vía Whatsapp</span>
               </div>
             </div>
           </motion.div>
 
           {/* Card */}
-          <motion.div
-            initial={{ opacity: 0, x: 30 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="bg-card p-10 rounded-3xl shadow-elevated border border-border/50"
-          >
+          <motion.div initial={{
+          opacity: 0,
+          x: 30
+        }} whileInView={{
+          opacity: 1,
+          x: 0
+        }} viewport={{
+          once: true
+        }} transition={{
+          duration: 0.6,
+          delay: 0.2
+        }} className="bg-card p-10 rounded-3xl shadow-elevated border border-border/50">
             <h3 className="text-2xl font-serif font-semibold text-foreground mb-6">
               Primera Consulta
             </h3>
@@ -120,8 +123,6 @@ const CTASection = () => {
           </motion.div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default CTASection;
