@@ -48,8 +48,9 @@ const CTASection = () => {
             <div className="space-y-4">
               <div className="flex items-center gap-3 text-muted-foreground">
                 <MapPin className="h-5 w-5 text-accent" />
-                <span>Consultorio ubicado en Torre Médica Pacífico, Piso 10, Consultorio 1007. 
-Calle de la Nao 19, 39670, Acapulco de Juarez, Gro., México. </span>
+                <span>Consultorio ubicado en Torre Médica Pacífico, Piso 10, Consultorio 1007.  Calle de la Nao 19, 39670, Acapulco de Juarez, Gro., México. 
+https://maps.app.goo.gl/qQNdygTrg4VRuc9q8?g_st=ipc
+              </span>
               </div>
               <div className="flex items-center gap-3 text-muted-foreground">
                 <Clock className="h-5 w-5 text-accent" />
