@@ -12,7 +12,7 @@ const AboutSection = () => {
     {
       icon: Award,
       title: "Certificaciones",
-      description: "Consejo Nacional de Medicina Interna",
+      description: "Consejo de Medicina Interna de México · Consejo de Medicina Interna de Guerrero",
     },
     {
       icon: Stethoscope,
