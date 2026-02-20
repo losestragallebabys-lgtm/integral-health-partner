@@ -39,7 +39,8 @@ const Header = () => {
             <Stethoscope className="h-6 w-6" />
           </div>
           <div>
-            <p className={`font-serif font-semibold text-lg transition-colors ${isScrolled ? "text-foreground" : "text-primary-foreground"}`}>Dr. Estrada Peña Jorge Uriel</p>
+            <p className={`font-serif font-semibold text-lg transition-colors ${isScrolled ? "text-foreground" : "text-primary-foreground"}`}>MEDICINA INTERNA
+Dr. Estrada Peña Jorge Uriel    Dra. Gallegos Posada Adriana</p>
             <p className={`text-xs transition-colors ${isScrolled ? "text-muted-foreground" : "text-primary-foreground/70"}`}>
               Medicina Interna
             </p>
@@ -48,7 +49,7 @@ const Header = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden lg:flex items-center gap-8">
-          {navLinks.map(link => <a key={link.href} href={link.href} className={`text-sm font-medium transition-colors hover:text-accent ${isScrolled ? "text-foreground" : "text-primary-foreground"}`}>
+          {navLinks.map((link) => <a key={link.href} href={link.href} className={`text-sm font-medium transition-colors hover:text-accent ${isScrolled ? "text-foreground" : "text-primary-foreground"}`}>
               {link.label}
             </a>)}
           <Button className="bg-accent hover:bg-accent/90 text-accent-foreground font-medium px-6">
@@ -63,8 +64,7 @@ const Header = () => {
       </div>
 
       {/* Mobile Menu */}
-      {isMobileMenuOpen && <motion.div initial={{
-      opacity: 0,
+      {isMobileMenuOpen && <motion.div initial={{ opacity: 0,
       y: -20
     }} animate={{
       opacity: 1,
@@ -74,7 +74,7 @@ const Header = () => {
       y: -20
     }} className="lg:hidden absolute top-full left-0 right-0 bg-card shadow-elevated border-t border-border">
           <nav className="container py-6 flex flex-col gap-4">
-            {navLinks.map(link => <a key={link.href} href={link.href} onClick={() => setIsMobileMenuOpen(false)} className="text-foreground font-medium py-2 hover:text-accent transition-colors">
+            {navLinks.map((link) => <a key={link.href} href={link.href} onClick={() => setIsMobileMenuOpen(false)} className="text-foreground font-medium py-2 hover:text-accent transition-colors">
                 {link.label}
               </a>)}
             <Button className="bg-accent hover:bg-accent/90 text-accent-foreground font-medium mt-2">
