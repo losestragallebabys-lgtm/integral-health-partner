@@ -80,13 +80,13 @@ https://maps.app.goo.gl/qQNdygTrg4VRuc9q8?g_st=ipc
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-accent" />
-                <span>2201414284
-7202943198
+                <span>2201414284                                                       7202943198
+
               </span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-accent" />
-                <span>coke17@live.com
+                <span>coke17@live.com                                                              adri.gap@icloud.com   
               </span>
               </li>
             </ul>
