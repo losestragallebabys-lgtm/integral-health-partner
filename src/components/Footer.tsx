@@ -10,16 +10,16 @@ const Footer = () => {
                 <Stethoscope className="h-6 w-6" />
               </div>
               <div>
-                <p className="font-serif font-semibold text-lg">Dr. Estrada Peña Jorge Uriel
+                <p className="font-serif font-semibold text-lg">Dr. Estrada Peña Jorge Uriel 
 Dra. Gallegos Posada Adriana
               </p>
                 <p className="text-xs text-primary-foreground/70">Medicina Interna</p>
               </div>
             </div>
-            <p className="text-primary-foreground/80 leading-relaxed max-w-md mb-6">
-              Especialista en el diagnóstico de casos complejos y el manejo avanzado 
-              de enfermedades crónicas. Tu salud integral es mi prioridad.
-            </p>
+            <p className="text-primary-foreground/80 leading-relaxed max-w-md mb-6">Especialistas en el diagnóstico de casos complejos y el manejo avanzado de enfermedades crónicas. Tu salud integral es nuestra prioridad.
+
+
+          </p>
             <div className="flex gap-4">
               <a href="#" className="p-2 rounded-lg bg-primary-foreground/10 hover:bg-primary-foreground/20 transition-colors">
                 <Instagram className="h-5 w-5" />
@@ -71,8 +71,11 @@ Dra. Gallegos Posada Adriana
             <ul className="space-y-4 text-primary-foreground/80">
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 mt-0.5 text-accent" />
-                <span>Consultorio médico
-Torre Médica Pacífico, Piso 10, Consultorio 1007.  Calle de la Nao 19, 39670, Acapulco de Juarez, Gro., México.  https://maps.app.goo.gl/qQNdygTrg4VRuc9q8?g_st=ipc
+                <span>Consultorio médico ubicado en Torre Médica del Pacífico, Piso 10, Consultorio 1007. 
+Calle de la Nao 19, 39670, Acapulco de Juarez, Gro., México. 
+https://maps.app.goo.gl/qQNdygTrg4VRuc9q8?g_st=ipc
+
+
                 <br />[Ciudad, Dirección]</span>
               </li>
               <li className="flex items-center gap-3">
