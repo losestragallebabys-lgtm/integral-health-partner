@@ -10,7 +10,9 @@ const Footer = () => {
                 <Stethoscope className="h-6 w-6" />
               </div>
               <div>
-                <p className="font-serif font-semibold text-lg">Dr. Estrada Peña Jorge Uriel</p>
+                <p className="font-serif font-semibold text-lg">Dr. Estrada Peña Jorge Uriel
+Dra. Gallegos Posada Adriana
+              </p>
                 <p className="text-xs text-primary-foreground/70">Medicina Interna</p>
               </div>
             </div>
@@ -101,6 +103,4 @@ Torre Médica Pacífico, Piso 10, Consultorio 1007.  Calle de la Nao 19, 39670,
           </div>
         </div>
       </div>
-    </footer>;
-};
-export default Footer;
+    </footer>;};export default Footer;
