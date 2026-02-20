@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Award, GraduationCap, Heart, Stethoscope } from "lucide-react";
+import doctorPhoto from "@/assets/doctor-photo.jpg";
 
 const AboutSection = () => {
   const credentials = [
@@ -37,15 +38,12 @@ const AboutSection = () => {
             transition={{ duration: 0.6 }}
             className="relative"
           >
-            <div className="aspect-[4/5] rounded-2xl bg-gradient-card shadow-card overflow-hidden">
-              <div className="absolute inset-0 flex items-center justify-center bg-secondary">
-                <div className="text-center p-8">
-                  <Stethoscope className="h-20 w-20 text-primary mx-auto mb-4" />
-                  <p className="text-muted-foreground text-sm">
-                    Foto del Dr./Dra.
-                  </p>
-                </div>
-              </div>
+            <div className="aspect-[4/5] rounded-2xl shadow-card overflow-hidden">
+              <img
+                src={doctorPhoto}
+                alt="Doctora en su consultorio"
+                className="w-full h-full object-cover object-top"
+              />
             </div>
             {/* Decorative accent */}
             <div className="absolute -bottom-6 -right-6 w-48 h-48 rounded-2xl bg-accent/10 -z-10" />
