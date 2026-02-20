@@ -10,8 +10,8 @@ const Footer = () => {
                 <Stethoscope className="h-6 w-6" />
               </div>
               <div>
-                <p className="font-serif font-semibold text-lg">Dr. Estrada Peña Jorge Uriel 
-Dra. Gallegos Posada Adriana
+                <p className="font-serif font-semibold text-lg">Dr. Estrada Peña Jorge Uriel                              Dra. Gallegos Posada Adriana
+
               </p>
                 <p className="text-xs text-primary-foreground/70">Medicina Interna</p>
               </div>
@@ -80,7 +80,9 @@ https://maps.app.goo.gl/qQNdygTrg4VRuc9q8?g_st=ipc
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-accent" />
-                <span>+52 (55) 1234-5678</span>
+                <span>2201414284
+7202943198
+              </span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-accent" />
