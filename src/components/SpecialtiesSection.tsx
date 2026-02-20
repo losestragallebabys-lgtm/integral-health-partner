@@ -5,6 +5,7 @@ import {
   Shield, 
   Pill, 
   ClipboardCheck,
+  Scale,
   ArrowRight
 } from "lucide-react";
 
@@ -38,6 +39,12 @@ const specialties = [
     title: "Valoraciones Preoperatorias",
     description: "Evaluamos tu riesgo quirúrgico con precisión para garantizar tu seguridad en el quirófano.",
     color: "bg-accent/10 text-accent",
+  },
+  {
+    icon: Scale,
+    title: "Control de Peso",
+    description: "Manejo médico integral del sobrepeso y la obesidad, con estrategias personalizadas que van más allá de las dietas convencionales.",
+    color: "bg-medical-green/10 text-medical-green",
   },
 ];
 
