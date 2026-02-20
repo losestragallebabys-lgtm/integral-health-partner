@@ -7,7 +7,7 @@ const AboutSection = () => {
     {
       icon: GraduationCap,
       title: "Formación Académica",
-      description: "Universidad Nacional con especialidad en Medicina Interna",
+      description: "Universidad Autónoma Benito Juárez de Oaxaca con especialidad en Medicina Interna",
     },
     {
       icon: Award,
