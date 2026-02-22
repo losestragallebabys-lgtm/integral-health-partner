@@ -6,7 +6,7 @@ import doctorWoman from "@/assets/doctor-woman.jpg";
 const doctors = [
   {
     photo: doctorMan,
-    name: "Dr. [Nombre]",
+    name: "Dr. Estrada Peña Jorge Uriel",
     specialty: "Medicina Interna",
   },
   {
