@@ -25,7 +25,7 @@ const credentials = [
   {
     icon: Award,
     title: "Certificaciones",
-    description: "Universidad Autónoma Benito Juarez de Oaxaca con especialidad en Medicina Interna. Rotaciones a Ciudad de México como CMN Siglo XXI y CMN La Raza.",
+    description: "Avalado por el Consejo Mexicano de Medicina Interna a nivel nacional. Avalado por el Consejo de Medicina Interna de Guerrero a nivel local.",
   },
   {
     icon: Stethoscope,
