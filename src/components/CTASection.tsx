@@ -120,7 +120,8 @@ al teléfono 220-141-4284<Calendar className="mr-2 h-5 w-5" />
                 </p>
                 <Button asChild className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-medium py-6 text-base">
                   <a href="https://wa.me/522201414284" target="_blank" rel="noopener noreferrer">
-                    Reservar Consulta por WhatsApp
+                    Reservar Consulta por WhatsApp 
+al teléfono 220-141-4284    
                   </a>
                 </Button>
               </div>
@@ -128,6 +129,5 @@ al teléfono 220-141-4284<Calendar className="mr-2 h-5 w-5" />
           </motion.div>
         </div>
       </div>
-    </section>;
-};
+    </section>;};
 export default CTASection;
