@@ -120,8 +120,10 @@ https://maps.app.goo.gl/qQNdygTrg4VRuc9q8?g_st=ipc
                 <p className="text-sm text-muted-foreground mb-4">
                   *Consulta de seguimiento disponible con duración de 30 minutos
                 </p>
-                <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-medium py-6 text-base">
-                  Reservar Consulta
+                <Button asChild className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-medium py-6 text-base">
+                  <a href="https://wa.me/522201414284" target="_blank" rel="noopener noreferrer">
+                    Reservar Consulta por WhatsApp
+                  </a>
                 </Button>
               </div>
             </div>
