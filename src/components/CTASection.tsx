@@ -37,9 +37,10 @@ const CTASection = () => {
               <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground font-medium px-8 py-6 text-base shadow-elevated">
                 <a href="https://wa.me/522201414284" target="_blank" rel="noopener noreferrer">Agendar Cita por WhatsApp 
 al teléfono 
-220-141-4284
+Agendar Cita por WhatsApp al teléfono 
+220-141-4284 
 720-294-3198
-                <Calendar className="mr-2 h-5 w-5" />
+720-294-3198<Calendar className="mr-2 h-5 w-5" />
                   Agendar Cita
                 </a>
               </Button>
@@ -66,15 +67,14 @@ al teléfono
           </motion.div>
 
           {/* Card */}
-          <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{
-          opacity: 1,
-          x: 0
-        }} viewport={{
-          once: true
-        }} transition={{
-          duration: 0.6,
-          delay: 0.2
-        }} className="bg-card p-10 rounded-3xl shadow-elevated border border-border/50">
+          <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1,
+            x: 0
+          }} viewport={{
+            once: true
+          }} transition={{
+            duration: 0.6,
+            delay: 0.2
+          }} className="bg-card p-10 rounded-3xl shadow-elevated border border-border/50">
             <h3 className="text-2xl font-serif font-semibold text-foreground mb-6">
               Primera Consulta
             </h3>
