@@ -35,13 +35,9 @@ const CTASection = () => {
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
               <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground font-medium px-8 py-6 text-base shadow-elevated">
-                <a href="https://wa.me/522201414284" target="_blank" rel="noopener noreferrer">Agendar Cita por WhatsApp 
-al teléfono 
-Agendar Cita por WhatsApp al teléfono 
-220-141-4284 
-720-294-3198
-720-294-3198<Calendar className="mr-2 h-5 w-5" />
-                  Agendar Cita
+                <a href="https://wa.me/522201414284" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                  <Calendar className="mr-2 h-5 w-5" />
+                  <span className="text-left">Agendar Cita por WhatsApp al teléfono<br />220-141-4284<br />720-294-3198</span>
                 </a>
               </Button>
               <Button asChild size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground font-medium px-8 py-6 text-base">
