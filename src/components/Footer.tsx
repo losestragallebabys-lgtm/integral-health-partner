@@ -10,7 +10,7 @@ const Footer = () => {
                 <Stethoscope className="h-6 w-6" />
               </div>
               <div>
-                <p className="font-serif font-semibold text-lg">Dr. Estrada Peña Jorge Uriel                              
+                <p className="font-serif font-semibold text-lg">Dr. Estrada Peña Jorge Uriel                              
 Dra. Gallegos Posada Adriana
 
               </p>
