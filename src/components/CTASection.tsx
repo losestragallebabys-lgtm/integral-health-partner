@@ -50,12 +50,10 @@ const CTASection = () => {
 
             {/* Contact Info */}
             <div className="space-y-4">
-              <div className="flex items-center gap-3 text-muted-foreground">
-                <MapPin className="h-5 w-5 text-accent" />
-                <span>Consultorio ubicado en Torre Médica Pacífico, Piso 10, Consultorio 1007.  Calle de la Nao 19, 39670, Acapulco de Juarez, Gro., México. 
-https://maps.app.goo.gl/qQNdygTrg4VRuc9q8?g_st=ipc
-              </span>
-              </div>
+              <a href="https://maps.app.goo.gl/qQNdygTrg4VRuc9q8?g_st=ipc" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-muted-foreground hover:text-accent transition-colors">
+                <MapPin className="h-5 w-5 text-accent flex-shrink-0" />
+                <span>Torre Médica Pacífico, Piso 10, Consultorio 1007. Calle de la Nao 19, 39670, Acapulco de Juárez, Gro., México.</span>
+              </a>
               <div className="flex items-center gap-3 text-muted-foreground">
                 <Clock className="h-5 w-5 text-accent" />
                 <span>Lunes a Viernes: 9:00 - 18:00 hrs
