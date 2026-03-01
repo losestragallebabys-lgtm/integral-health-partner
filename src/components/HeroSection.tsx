@@ -63,13 +63,17 @@ const HeroSection = () => {
           duration: 0.6,
           delay: 0.3
         }} className="flex flex-col sm:flex-row gap-4">
-            <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground font-medium px-8 py-6 text-base shadow-elevated">
-              <Calendar className="mr-2 h-5 w-5" />
-              Agendar Cita
+            <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground font-medium px-8 py-6 text-base shadow-elevated">
+              <a href="https://wa.me/522201414284" target="_blank" rel="noopener noreferrer">
+                <Calendar className="mr-2 h-5 w-5" />
+                Agendar Cita
+              </a>
             </Button>
-            <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 font-medium px-8 py-6 text-base">
-              <Phone className="mr-2 h-5 w-5" />
-              Contactar por WhatsApp
+            <Button asChild size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 font-medium px-8 py-6 text-base">
+              <a href="https://wa.me/522201414284" target="_blank" rel="noopener noreferrer">
+                <Phone className="mr-2 h-5 w-5" />
+                Contactar por WhatsApp
+              </a>
             </Button>
           </motion.div>
 
