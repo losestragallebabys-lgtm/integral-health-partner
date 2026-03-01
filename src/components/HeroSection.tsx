@@ -88,7 +88,7 @@ const HeroSection = () => {
         }} className="mt-12 pt-8 border-t border-primary-foreground/20">
             <div className="flex flex-wrap gap-8 text-primary-foreground/80">
               <div className="flex items-center gap-2">
-                <span className="text-3xl font-serif font-semibold text-accent">6+</span>
+                <span className="text-3xl font-serif font-semibold text-accent">7+</span>
                 <span className="text-sm">Años de<br />experiencia</span>
               </div>
               <div className="flex items-center gap-2">
