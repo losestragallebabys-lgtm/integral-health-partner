@@ -35,8 +35,8 @@ const CTASection = () => {
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
               <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground font-medium px-8 py-6 text-base shadow-elevated">
-                <a href="https://wa.me/522201414284" target="_blank" rel="noopener noreferrer">
-                  <Calendar className="mr-2 h-5 w-5" />
+                <a href="https://wa.me/522201414284" target="_blank" rel="noopener noreferrer">Agendar Cita por WhatsApp 
+al teléfono 220-141-4284<Calendar className="mr-2 h-5 w-5" />
                   Agendar Cita
                 </a>
               </Button>
