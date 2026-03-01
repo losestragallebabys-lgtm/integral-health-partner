@@ -51,8 +51,8 @@ const Header = () => {
           {navLinks.map((link) => <a key={link.href} href={link.href} className={`text-sm font-medium transition-colors hover:text-accent ${isScrolled ? "text-foreground" : "text-primary-foreground"}`}>
               {link.label}
             </a>)}
-          <Button className="bg-accent hover:bg-accent/90 text-accent-foreground font-medium px-6">
-            Agendar Cita
+          <Button asChild className="bg-accent hover:bg-accent/90 text-accent-foreground font-medium px-6">
+            <a href="https://wa.me/522201414284" target="_blank" rel="noopener noreferrer">Agendar Cita</a>
           </Button>
         </nav>
 
@@ -75,8 +75,8 @@ const Header = () => {
             {navLinks.map((link) => <a key={link.href} href={link.href} onClick={() => setIsMobileMenuOpen(false)} className="text-foreground font-medium py-2 hover:text-accent transition-colors">
                 {link.label}
               </a>)}
-            <Button className="bg-accent hover:bg-accent/90 text-accent-foreground font-medium mt-2">
-              Agendar Cita
+            <Button asChild className="bg-accent hover:bg-accent/90 text-accent-foreground font-medium mt-2">
+              <a href="https://wa.me/522201414284" target="_blank" rel="noopener noreferrer">Agendar Cita</a>
             </Button>
           </nav>
         </motion.div>}
