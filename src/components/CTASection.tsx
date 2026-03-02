@@ -2,14 +2,14 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Calendar, MessageCircle, MapPin, Clock } from "lucide-react";
 const CTASection = () => {
-  return <section id="contacto" className="py-24 bg-gradient-subtle relative overflow-hidden">
+  return <section id="contacto" className="py-12 sm:py-24 bg-gradient-subtle relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute inset-0 opacity-30">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full bg-gradient-to-r from-primary/10 via-accent/10 to-medical-green/10 blur-3xl" />
       </div>
 
       <div className="container relative">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           {/* Content */}
           <motion.div initial={{
           opacity: 0,
@@ -25,22 +25,22 @@ const CTASection = () => {
             <span className="text-accent font-medium text-sm tracking-wide uppercase">
               Agenda tu Cita
             </span>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-semibold text-foreground mt-3 mb-6">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-serif font-semibold text-foreground mt-3 mb-4 sm:mb-6">
               Empieza hoy a cuidar lo más importante: tu salud
             </h2>
-            <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
+            <p className="text-muted-foreground text-base sm:text-lg mb-6 sm:mb-8 leading-relaxed">
               No permitas que las dudas o el dolor limiten tus días. Agendar una consulta 
               es el primer paso hacia una versión más saludable de ti mismo.
             </p>
 
-            <div className="flex flex-col sm:flex-row gap-4 mb-12">
-              <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground font-medium px-8 py-6 text-base shadow-elevated">
+            <div className="flex flex-col gap-4 mb-8 sm:mb-12">
+              <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground font-medium px-4 sm:px-8 py-4 sm:py-6 text-xs sm:text-sm md:text-base shadow-elevated h-auto">
                 <a href="https://wa.me/522201414284" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
-                  <Calendar className="mr-2 h-5 w-5" />
+                  <Calendar className="mr-1 sm:mr-2 h-4 w-4 sm:h-5 sm:w-5 flex-shrink-0" />
                   <span className="text-left">Agendar Cita por WhatsApp al teléfono<br />220-141-4284 o al 720-294-3198</span>
                 </a>
               </Button>
-              <Button asChild size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground font-medium px-8 py-6 text-base">
+              <Button asChild size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground font-medium px-4 sm:px-8 py-4 sm:py-6 text-sm sm:text-base h-auto">
                 <a href="https://wa.me/522201414284" target="_blank" rel="noopener noreferrer">
                   <MessageCircle className="mr-2 h-5 w-5" />
                   WhatsApp
@@ -50,14 +50,13 @@ const CTASection = () => {
 
             {/* Contact Info */}
             <div className="space-y-4">
-              <a href="https://maps.app.goo.gl/qQNdygTrg4VRuc9q8?g_st=ipc" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-muted-foreground hover:text-accent transition-colors">
-                <MapPin className="h-5 w-5 text-accent flex-shrink-0" />
+              <a href="https://maps.app.goo.gl/qQNdygTrg4VRuc9q8?g_st=ipc" target="_blank" rel="noopener noreferrer" className="flex items-start gap-3 text-muted-foreground hover:text-accent transition-colors text-sm sm:text-base">
+                <MapPin className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
                 <span>Torre Médica Pacífico, Piso 10, Consultorio 1007. Calle de la Nao 19, 39670, Acapulco de Juárez, Gro., México.</span>
               </a>
-              <div className="flex items-center gap-3 text-muted-foreground">
-                <Clock className="h-5 w-5 text-accent" />
-                <span>Lunes a Viernes: 9:00 - 18:00 hrs
-¿Necesitas otro horario? Atendemos solicitudes especiales con cita previa. Contáctanos vía Whatsapp</span>
+              <div className="flex items-start gap-3 text-muted-foreground text-sm sm:text-base">
+                <Clock className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
+                <span>Lunes a Viernes: 9:00 - 18:00 hrs. ¿Necesitas otro horario? Atendemos solicitudes especiales con cita previa. Contáctanos vía Whatsapp</span>
               </div>
             </div>
           </motion.div>
@@ -69,8 +68,8 @@ const CTASection = () => {
         }} transition={{
           duration: 0.6,
           delay: 0.2
-        }} className="bg-card p-10 rounded-3xl shadow-elevated border border-border/50">
-            <h3 className="text-2xl font-serif font-semibold text-foreground mb-6">
+        }} className="bg-card p-6 sm:p-10 rounded-3xl shadow-elevated border border-border/50">
+            <h3 className="text-xl sm:text-2xl font-serif font-semibold text-foreground mb-6">
               Primera Consulta
             </h3>
             
@@ -113,11 +112,10 @@ const CTASection = () => {
                 <p className="text-sm text-muted-foreground mb-4">
                   *Consulta de seguimiento disponible con duración de 30 minutos
                 </p>
-                <Button asChild className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-medium py-6 text-base">
-                  <a href="https://wa.me/522201414284" target="_blank" rel="noopener noreferrer">Reservar Consulta por WhatsApp al teléfono 
-220-141-4284 o al 7202943198   
-
-                </a>
+                <Button asChild className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-medium py-4 sm:py-6 text-xs sm:text-sm md:text-base h-auto">
+                  <a href="https://wa.me/522201414284" target="_blank" rel="noopener noreferrer" className="text-center whitespace-normal">
+                    Reservar Consulta por WhatsApp al teléfono<br />220-141-4284 o al 720-294-3198
+                  </a>
                 </Button>
               </div>
             </div>
