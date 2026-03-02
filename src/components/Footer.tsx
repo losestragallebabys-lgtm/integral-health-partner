@@ -98,7 +98,7 @@ adri.gap@icloud.com   </span>
       {/* Bottom Bar */}
       <div className="border-t border-primary-foreground/10">
         <div className="container py-6 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-primary-foreground/60">
-          <p>© 2024 Dr. García. Todos los derechos reservados.</p>
+          <p>© 2024 Medicina Interna. Estrada & Gallegos. Todos los derechos reservados.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-accent transition-colors">
               Aviso de Privacidad
