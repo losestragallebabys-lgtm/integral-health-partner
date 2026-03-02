@@ -10,11 +10,8 @@ const Footer = () => {
                 <Stethoscope className="h-6 w-6" />
               </div>
               <div>
-                <p className="font-serif font-semibold text-lg">Dr. Estrada Peña Jorge Uriel   
-Dra. Gallegos Posada Adriana
-
-              </p>
-                <p className="text-xs text-primary-foreground/70">Medicina Interna</p>
+                <p className="font-serif font-semibold text-lg">Medicina Interna</p>
+                <p className="text-xs text-primary-foreground/70">Estrada y Gallegos</p>
               </div>
             </div>
             <p className="text-primary-foreground/80 leading-relaxed max-w-md mb-6">Especialistas en el diagnóstico de casos complejos y el manejo avanzado de enfermedades crónicas. Tu salud integral es nuestra prioridad.
