@@ -81,8 +81,8 @@ Dra. Gallegos Posada Adriana
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-accent" />
-                <span>2201414284                                                       7202943198
-
+                <span>2201414284
+7202943198
               </span>
               </li>
               <li className="flex items-center gap-3">
