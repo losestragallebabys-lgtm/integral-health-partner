@@ -10,8 +10,8 @@ const Footer = () => {
                 <Stethoscope className="h-6 w-6" />
               </div>
               <div>
-                <p className="font-serif font-semibold text-lg">Dr. Estrada Peña Jorge Uriel                                     Dra. Gallegos Posada Adriana
-
+                <p className="font-serif font-semibold text-lg">Dr. Estrada Peña Jorge Uriel  
+Dra. Gallegos Posada Adriana
 
               </p>
                 <p className="text-xs text-primary-foreground/70">Medicina Interna</p>
@@ -72,9 +72,9 @@ const Footer = () => {
             <ul className="space-y-4 text-primary-foreground/80">
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 mt-0.5 text-accent" />
-                <span>Consultorio médico ubicado en Torre Médica del Pacífico, Piso 10, Consultorio 1007. 
-Calle de la Nao 19, 39670, Acapulco de Juarez, Gro., México. 
-https://maps.app.goo.gl/qQNdygTrg4VRuc9q8?g_st=ipc
+                <span>Consultorio médico ubicado en Torre Médica del Pacífico, Piso 10, Consultorio 1007.  Calle de la Nao 19, 39670, Acapulco de Juarez, Gro., México.  
+
+
 
 
                 <br />[Ciudad, Dirección]</span>

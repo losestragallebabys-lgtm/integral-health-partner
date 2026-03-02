@@ -37,7 +37,8 @@ const CTASection = () => {
               <Button asChild size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground font-medium px-8 py-6 text-base shadow-elevated">
                 <a href="https://wa.me/522201414284" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                   <Calendar className="mr-2 h-5 w-5" />
-                  <span className="text-left">Agendar Cita por WhatsApp al teléfono<br />220-141-4284<br />720-294-3198</span>
+                  <span className="text-left">Agendar Cita por WhatsApp al teléfono
+220-141-4284 o al720-294-3198<br />220-141-4284<br />720-294-3198</span>
                 </a>
               </Button>
               <Button asChild size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground font-medium px-8 py-6 text-base">
@@ -63,14 +64,13 @@ const CTASection = () => {
           </motion.div>
 
           {/* Card */}
-          <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1,
-            x: 0
-          }} viewport={{
-            once: true
-          }} transition={{
-            duration: 0.6,
-            delay: 0.2
-          }} className="bg-card p-10 rounded-3xl shadow-elevated border border-border/50">
+          <motion.div initial={{ opacity: 0, x: 30 }} whileInView={{ opacity: 1, x: 0
+        }} viewport={{
+          once: true
+        }} transition={{
+          duration: 0.6,
+          delay: 0.2
+        }} className="bg-card p-10 rounded-3xl shadow-elevated border border-border/50">
             <h3 className="text-2xl font-serif font-semibold text-foreground mb-6">
               Primera Consulta
             </h3>
@@ -115,8 +115,8 @@ const CTASection = () => {
                   *Consulta de seguimiento disponible con duración de 30 minutos
                 </p>
                 <Button asChild className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-medium py-6 text-base">
-                  <a href="https://wa.me/522201414284" target="_blank" rel="noopener noreferrer">Reservar Consulta por WhatsApp 
-al teléfono 220-141-4284
+                  <a href="https://wa.me/522201414284" target="_blank" rel="noopener noreferrer">Reservar Consulta por WhatsApp al teléfono 
+220-141-4284 o al 7202943198   
 
                 </a>
                 </Button>
