@@ -38,7 +38,7 @@ const CTASection = () => {
                 <a href="https://wa.me/522201414284" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                   <Calendar className="mr-2 h-5 w-5" />
                   <span className="text-left">Agendar Cita por WhatsApp al teléfono
-220-141-4284 o al720-294-3198<br />220-141-4284<br />720-294-3198</span>
+ 220-141-4284 o al 720-294-3198<br />220-141-4284<br />720-294-3198</span>
                 </a>
               </Button>
               <Button asChild size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground font-medium px-8 py-6 text-base">
