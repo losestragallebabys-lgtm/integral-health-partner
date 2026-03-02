@@ -39,8 +39,8 @@ const Header = () => {
             <Stethoscope className="h-6 w-6" />
           </div>
           <div>
-            <p className={`font-serif font-semibold text-lg transition-colors whitespace-pre-line ${isScrolled ? "text-foreground" : "text-primary-foreground"}`}>{"MEDICINA INTERNA\nDr. Estrada Peña Jorge Uriel\nDra. Gallegos Posada Adriana"}</p>
-            <p className={`text-xs transition-colors ${isScrolled ? "text-muted-foreground" : "text-primary-foreground/70"}`}>
+            <p className={`font-serif font-semibold text-xs sm:text-sm lg:text-lg leading-tight transition-colors whitespace-pre-line ${isScrolled ? "text-foreground" : "text-primary-foreground"}`}>{"MEDICINA INTERNA\nDr. Estrada Peña Jorge Uriel\nDra. Gallegos Posada Adriana"}</p>
+            <p className={`text-[10px] sm:text-xs transition-colors ${isScrolled ? "text-muted-foreground" : "text-primary-foreground/70"}`}>
               Medicina Interna
             </p>
           </div>
