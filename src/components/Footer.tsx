@@ -69,7 +69,7 @@ const Footer = () => {
             <ul className="space-y-4 text-primary-foreground/80">
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 mt-0.5 text-accent" />
-                <span>Consultorio médico ubicado en Torre Médica del Pacífico, Piso 10, Consultorio 1007.  Calle de la Nao 19, 39670, Acapulco de Juarez, Gro., México.  
+                <span>Consultorio médico ubicado en Torre Médica del Pacífico, Piso 10, Consultorio 1007.  Calle de la Nao 19, 39670, Acapulco de Juarez, Gro., México.
 
 
 
