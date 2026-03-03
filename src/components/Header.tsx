@@ -40,10 +40,10 @@ const Header = () => {
           </div>
           <div>
             <p className={`font-serif font-semibold text-xs sm:text-sm lg:text-lg leading-tight transition-colors ${isScrolled ? "text-foreground" : "text-primary-foreground"}`}>Medicina Interna Acapulco</p>
-            <p className={`text-[10px] sm:text-xs transition-colors ${isScrolled ? "text-muted-foreground" : "text-primary-foreground/70"}`}>Dr. Estrada Peña Jorge Uriel     
-
-Dra. Gallegos Posada Adriana
-</p>
+            <p className={`text-[10px] sm:text-xs transition-colors leading-relaxed ${isScrolled ? "text-muted-foreground" : "text-primary-foreground/70"}`}>
+              Dr. Estrada Peña Jorge Uriel<br />
+              Dra. Gallegos Posada Adriana
+            </p>
           </div>
         </a>
 
