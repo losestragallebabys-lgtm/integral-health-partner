@@ -34,9 +34,9 @@ const HeroSection = () => {
         }} transition={{
           duration: 0.6,
           delay: 0.1
-        }} className="text-4xl md:text-5xl lg:text-6xl font-serif font-semibold text-primary-foreground leading-tight mb-6">
-            Salud integral para una vida plena
-          </motion.h1>
+        }} className="text-4xl md:text-5xl lg:text-6xl font-serif font-semibold text-primary-foreground leading-tight mb-6">Salud integral para una vida plena en Acapulco 
+
+        </motion.h1>
 
           <motion.p initial={{
           opacity: 0,
