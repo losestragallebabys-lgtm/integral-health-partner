@@ -97,7 +97,12 @@ adri.gap@icloud.com </span>
       {/* Bottom Bar */}
       <div className="border-t border-primary-foreground/10">
         <div className="container py-6 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-primary-foreground/60">
-          <p>© 2024 Medicina Interna. Estrada & Gallegos. Todos los derechos reservados.</p>
+      <div>
+            <p>© 2024 Medicina Interna. Estrada & Gallegos. Todos los derechos reservados.</p>
+            <p className="mt-2 text-primary-foreground/50 text-xs">
+              Aviso de Publicidad COFEPRIS: Dr. Estrada Peña Jorge Uriel No. 2612072002A00012 | Dra. Gallegos Posada Adriana No. 2612072002A00013
+            </p>
+          </div>
           <div className="flex gap-6">
             <a href="#" className="hover:text-accent transition-colors">
               Aviso de Privacidad
